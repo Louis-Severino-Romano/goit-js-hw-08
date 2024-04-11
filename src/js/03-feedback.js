@@ -43,5 +43,4 @@ const email =emailEl.value;
     form.reset();
     localStorage.removeItem(STORAGE_KEY);
 }
-
 document.addEventListener('submit', onFormSubmit);
